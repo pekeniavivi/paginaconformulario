@@ -1,0 +1,93 @@
+<html>  
+   <head> 
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="main.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <meta charset="UTF-8">
+    <title>Formulario de registro</title>
+   </head>
+
+   <header>
+    <div class="container">
+     <h1>Formulario de contacto</h1> 
+    </div>
+  </header>
+
+<body style="padding-top: 70px"></style>
+<nav class="navbar navbar-custom navbar-fixed-top">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Desarrollo Web</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="#">Formulario de registro</a></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+  <div class="adorno"></div>
+</nav>
+  <div class="container">
+    <div class="row col-xs-12 col-md-6">
+      <form>
+        <form action="" method="get">
+          <div class="form-group">
+            <label for="name">Nombre</label>
+              <input type="text" class="form-control" maxlength="50" id="name" placeholder="Juan">
+          </div>
+          <div class="form-group">
+            <label for="surname">Apellido</label>
+              <input type="text" class="form-control" maxlength="50" id="surname" placeholder="Perez">
+          </div>
+          <div class="form-group">
+            <label for="exampleInputEmail1">Email address</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+          </div>
+          <div class="radio">
+            <h4> Género </h4>
+              <label class="radio-inline">
+                <input type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1"> Masculino
+              </label>
+              <label class="radio-inline">
+                <input type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2"> Femenino
+              </label>
+          </div>
+          <div class="checkbox">
+            <label>
+              <input type="checkbox" value=""checked>Deseo recibir información sobre novedades y ofertas
+            </label>  
+           </div>
+          <div class="pull-right">
+            <button type="submit" class="btn btn-primary">Enviar</button>
+            <button type="reset" class="btn btn-default" type="reset">Limpiar</button>
+          </div>
+      </form>        
+    </div>   
+      <div class="col-xs-12 col-md-6">
+          <div class="embed-responsive embed-responsive-16by9">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3329.895243450321!2d-70.61039098541362!3d-33.42597538078087!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662cf6fa26a8579%3A0xc4de6afe8db1c8ef!2sAv.+Ricardo+Lyon+500%2C+Providencia%2C+Regi%C3%B3n+Metropolitana!5e0!3m2!1ses!2scl!4v1492471296074" width="500" height="350" frameborder="0" style="border:0" allowfullscreen class="embed-responsive-item"></iframe>
+          </div>
+      </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,45 @@
+/*header {
+  background-color: #363637;
+  color: white;
+}*/
+
+.navbar-custom {
+  background-color: #363637;
+}
+
+.navbar-brand {
+ color: #FFFFFF;
+ font-size:35px;
+}
+
+
+
+.adorno {
+  background-color: black;
+  height: 20px;
+  width: 100%;
+}
+
+.recuadro {
+  background-color: #cccccc;
+  height: 200px;
+  margin-top:10px;
+}
+a{
+  color:  #FFFFFF;
+}
+
+.cuadrado {
+   background-color: #cccccc;
+   height: 70px;
+   margin:10px;
+}
+
+
+footer {
+  background-color: black;
+  font-size: 8px;
+  text-align: center;
+  color: white;
+}
+
